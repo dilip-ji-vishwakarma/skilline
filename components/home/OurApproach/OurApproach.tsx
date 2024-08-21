@@ -18,7 +18,7 @@ export const OurApproach = () => {
           description: `Changing Lives: Skilline prepares people from diverse backgrounds for the job market. Our graduates work with top companies in Singapore and the US, including NYSE-listed firms. Indian startups and million-dollar clients also hire our professionals, showcasing the real-world impact of our education programs.`,
           button: {
             label: "Get The Full Story",
-            url: "/our-impact",
+            url: "/about",
             target: "_self"
           }
         }} imageAlign="left"

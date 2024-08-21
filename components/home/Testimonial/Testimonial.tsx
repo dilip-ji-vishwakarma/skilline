@@ -10,7 +10,7 @@ export const Testimonial = () => {
             {
                 rating: 5,
                 title: "Empowering India's Future",
-                description: "Skilline has revolutionized education in Bharat, making high-quality, AI-driven learning accessible and affordable.",
+                description: "Skilline has revolutionized education in Bharat, making high-quality, AI-driven learning both accessible and affordable.",
                 name: "Rakesh Kumar, Educator"
             },
             {

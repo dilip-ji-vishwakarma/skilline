@@ -13,7 +13,7 @@ export const About = () => {
       description: `Skilline's mission is to revolutionize Bharat's education by providing affordable, AI-driven, personalized training that bridges skill gaps and empowers job seekers, corporate employees, and rural youth. We aim to enhance education accessibility through collaboration with corporates and educational institutions, focusing on niche resources and skill development. Our goal is to make learning engaging and effective, particularly in tech and manufacturing, to foster growth, create fair opportunities, and drive nationwide prosperity.`,
       button: {
         label: "Aligned with Govt Goals",
-        url: "/about",
+        url: "/our-mission",
         target: "_self" as "_self",
       }
     },

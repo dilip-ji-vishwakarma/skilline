@@ -12,8 +12,8 @@ export const SkillGap = () => {
               height: 1024,
               size: ""
           },
-          title: "Addressing Skill Gaps",
-          description: `The traditional education system leagues behind in fulfilling market demand and hence results as unemployment. Skilline bridge this gap by providing industry advice content, equal opportunity to the learner and personalized job guaranteed courses.`,
+          title: "Our Vision",
+          description: `We envision a future where every individual in India has the opportunity to thrive and contribute to the nation's progress. Our aim is to provide equitable access to education, ensuring that everyone, regardless of their background, can succeed. We strive to empower individuals to become skilled, self-sufficient, and confident, fostering a robust workforce that drives national growth and prosperity.`,
       }} imageAlign="right"
       />
     </div>

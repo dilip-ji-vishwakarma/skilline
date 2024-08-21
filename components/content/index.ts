@@ -703,3 +703,101 @@ export const courseData = [
     }
   }
 ]
+
+export const pillarsData = [
+  {
+    image: "/image/images/Economy.jpeg",
+    title: "Economy",
+    pillarsDescription: "Skilline aims to innovate workforce training to maximize productivity. Our goal is to help make India self-sufficient, create new employment opportunities, and establish 'Skilline, the Youth of India' as a global brand.",
+  },
+  {
+    image: "/image/images/Infrastructure.jpg",
+    title: "Infrastructure",
+    pillarsDescription: "We leverage the India AI Mission to develop extensive knowledge databases and scalable, personalized learning solutions. Our long-term vision includes establishing an Indigenous University that transforms acquired skills into valuable assets for the nation, fostering inclusivity and innovation.",
+  },
+  {
+    image: "/image/images/System.jpeg",
+    title: "System",
+    pillarsDescription: "Skilline is designed as a comprehensive educational ecosystem, allowing students to learn in their native languages through AI-supported platforms. This system adapts to each learner's needs, ensuring they are well-equipped with knowledge of current and future technologies.",
+  },
+  {
+    image: "/image/images/Vibrant Demography Skills.jpeg",
+    title: "Vibrant Demography Skills",
+    pillarsDescription: "Our bilingual educational services target diverse audiences, including youth, professionals, rural residents, and policymakers. Through partnerships with recognized Australian businesses, we aim to expand our reach and impact globally.",
+  },
+  {
+    image: "/image/images/Demand.jpeg",
+    title: "Demand",
+    pillarsDescription: "Skilline is a leading provider of on-demand skills training tailored to market needs. Our courses offer hands-on training both on the job and in vocational schools, paving the way for guaranteed employment or entrepreneurship.",
+  }
+]
+
+
+export const solution = [
+  {
+    course: "Economic Independence",
+    image: "/image/images/Economy.jpeg",
+    title: "Empowering individuals towards self-sufficiency",
+    cousedescription: "We have tripled salaries and helped Maharaju and others transition to high-demand tech jobs, leading to increased economic independence.",
+    link: {
+      label: "Enquiry",
+      url: "/impact/economic-independence",
+      target: "_self"
+    }
+  },
+  {
+    course: "Global Recognition",
+    image: "/image/images/Infrastructure.jpg",
+    title: "Achieving international acclaim and acknowledgment.",
+    cousedescription: "Our trained professionals contribute significantly to global markets, including top clients like Mindmaster Singapore and XULifestyle.",
+    link: {
+      label: "Enquiry",
+      url: "/impact/global-recognition",
+      target: "_self"
+    }
+  },
+  {
+    course: "Empowerment of Women",
+    image: "/image/images/System.jpeg",
+    title: "Fostering growth and opportunities for women",
+    cousedescription: "Deepti’s journey from homemaker to confident Python developer exemplifies our commitment to helping women rejoin the workforce.",
+    link: {
+      label: "Enquiry",
+      url: "/impact/empowering-women",
+      target: "_self"
+    }
+  },
+  {
+    course: "Enhance Personal Skills",
+    image: "/image/images/Vibrant Demography Skills.jpeg",
+    title: "Development of essential skills for personal and professional growth",
+    cousedescription: "Kishore's transition from operations to programming at Mindmaster Singapore highlights how skill development can transform career trajectories.",
+    link: {
+      label: "Enquiry",
+      url: "/impact/enhance-personal-skills",
+      target: "_self"
+    }
+  },
+  {
+    course: "Sufficient Knowledge",
+    image: "/image/images/Demand.jpeg",
+    title: "Comprehensive learning to meet current and future needs.",
+    cousedescription: "Skilline’s modern tech exposure transformed Dilip from using outdated technology to leading innovative projects, exemplifying how continuous learning drives career advancement.",
+    link: {
+      label: "Enquiry",
+      url: "/impact/sufficient-knowledge",
+      target: "_self"
+    }
+  },
+  {
+    course: "Self-Learning",
+    image: "/image/images/Demand.jpeg",
+    title: "Encouraging independent learning and development.",
+    cousedescription: "Sonu Verma, from humble beginnings in Indore, used Skilline’s courses to become a top full-stack developer, achieving excellence in software.",
+    link: {
+      label: "Enquiry",
+      url: "/impact/self-learning",
+      target: "_self"
+    }
+  }
+]
