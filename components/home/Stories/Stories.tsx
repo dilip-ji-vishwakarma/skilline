@@ -38,7 +38,7 @@ export const Stories = () => {
 
   return (
     <div className="container bg-[#fae5d1] md:rounded-xl mb-10">
-      <div className="pt-10 md:px-10">
+      <div className="pt-10 pb-10 md:px-10">
         <div className="flex items-center flex-col md:flex-row">
           <div className="md:w-[50%] w-full pb-10 space-y-3">
             <Heading className="mb-5">Our Success Story</Heading>

@@ -41,7 +41,7 @@ cousedescription,
           <div>
             <span className="w-[30px] h-[3px] hidden  bg-gray-200 md:inline-block"></span>
             <h3 className="text-[18px] md:block hidden">{course} </h3>
-            <h3 className="mb-2 md:hidden block">{title}</h3>
+            <h3 className="mb-2 md:hidden block text-[20px]">{title}</h3>
             <p className={`text-[13px] leading-[1.38] text-center px-2.5 py-0.5 rounded-sm mt-2 md:block hidden ${risk.bgcolor}`}>{risk.label}</p>
           </div>
         </div>

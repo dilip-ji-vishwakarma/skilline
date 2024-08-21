@@ -35,16 +35,16 @@ cousedescription,
           />
           <div>
             <span className="w-[30px] h-[3px] hidden  bg-gray-200 md:inline-block"></span>
-            <h3 className="text-[18px] ">{course} </h3>
+            <h3 className="text-[21px] ">{course} </h3>
           </div>
         </div>
 
         <div className="md:col-span-3  flex items-center">
           <div className="w-full h-full flex items-center justify-center flex-col md:flex-row px-10 md:px-0">
-            <div className="bg-gray-200 w-full h-[1px] md:w-[1px] md:h-[100%] inline-block mx-10" />
-            <div className="pr-5">
-              <h3 className="mb-2">{title}</h3>
-              <Paragraph className=" font-[300]  interFont p-0 m-0 line-clamp-3 md:line-clamp-4 ">
+            <div className="bg-gray-200 w-full h-[1px] md:w-[1px] md:h-[100%] inline-block" />
+            <div className="pr-5 pt-3">
+              <h3 className="mb-2 text-[18px]">{title}</h3>
+              <Paragraph className=" font-[300]  interFont p-0 m-0 line-clamp-3 md:line-clamp-4 text-[17px]">
                 {cousedescription}
               </Paragraph>
               <div className="py-6 border-r-0 border-b-0 text-center md:w-[40%]">

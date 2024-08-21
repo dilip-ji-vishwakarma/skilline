@@ -70,11 +70,11 @@ export const TestimonialSlider = ({ heading, description, quote }: TestimonialIt
         }
     }, []);
 
-    const button = "rounded-full border border-[#3750e0] p-3 text-[#3750e0] transition hover:bg-[#3750e0] hover:text-white";
+    const button = "rounded-full border border-[#000000] p-3 text-[#000000] transition hover:bg-[#000000] hover:text-white";
 
     return (
         <section className="container">
-            <div className="mx-auto max-w-[1340px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
+            <div className="mx-auto max-w-[1340px] px-4 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 xl:items-center lg:items-center lg:gap-16">
                     <div className="max-w-xl ltr:sm:text-left rtl:sm:text-right md:space-y-2 space-y-3">
                         <Heading>{heading}</Heading>
