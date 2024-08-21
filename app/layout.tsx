@@ -3,28 +3,18 @@ import localFont from "next/font/local";
 import { cn } from "@/lib/utils";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-const proximaNovaFont = localFont({
+const interFont = localFont({
   src: [
-    { path: "../public/fonts/Proximanova-thin.otf", weight: "100" },
-    { path: "../public/fonts/Proximanova-light.otf", weight: "200" },
-    { path: "../public/fonts/Proximanova-regular.otf", weight: "300" },
-    { path: "../public/fonts/Proximanova-medium.otf", weight: "400" },
-    { path: "../public/fonts/Proximanova-semibold.otf", weight: "600" },
-    { path: "../public/fonts/Proximanova-extrabold.otf", weight: "900" },
+    { path: "../public/font/Inter-Thin.ttf", weight: "100" },
+    { path: "../public/font/Inter-Light.ttf", weight: "200" },
+    { path: "../public/font/Inter-Regular.ttf", weight: "300" },
+    { path: "../public/font/Inter-Medium.ttf", weight: "400" },
+    { path: "../public/font/Inter-SemiBold.ttf", weight: "600" },
+    { path: "../public/font/Inter-ExtraBold.ttf", weight: "900" },
   ],
-  variable: "--proxima-nova-font",
+  variable: "--inter-nova-font",
 });
 
-const gorditaFont = localFont({
-  src: [
-    { path: "../public/fonts/Gordita-Light.otf", weight: "200" },
-    { path: "../public/fonts/Gordita-Regular.otf", weight: "300" },
-    { path: "../public/fonts/Gordita-Medium.otf", weight: "400" },
-    { path: "../public/fonts/Gordita-Bold.otf", weight: "600" },
-    { path: "../public/fonts/Gordita-Black.otf", weight: "900" },
-  ],
-  variable: "--spring-font",
-});
 
 import "./globals.css";
 import { Cookies, ScrollToTop } from "@/components/core";
@@ -43,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(gorditaFont.className, proximaNovaFont.className)}>
+      <body className={cn(interFont.className)}>
         <Header />
         {children}
         <Footer />

@@ -100,8 +100,8 @@ const Page = () => {
       </Breadcrumb></div>
       <div className='container py-10'>
         <div className='space-y-10'>
-          <Heading className='text-center '>{`Skilline's self-learning platform uses artificial intelligence (AI) to create personalized learning experiences that adapt to each individual.`}</Heading>
-          <Heading className='text-center md:text-[30px]'>{`Here’s what sets it apart:`}</Heading>
+          <Heading className='text-black text-pretty md:text-[30px] text-[20px] md:leading-[40px] font-normal text-center'>{`Skilline's self-learning platform uses artificial intelligence (AI) to create personalized learning experiences that adapt to each individual.`}</Heading>
+          <Heading className='text-black text-pretty md:text-[30px] text-[20px] md:leading-[40px] font-normal text-center'>{`Here’s what sets it apart:`}</Heading>
         </div>
         <div className="space-y-10 mt-10">
           {data.map((item: any, index) => {
@@ -124,7 +124,7 @@ const Page = () => {
         </div>
         <div className='space-y-12 py-10'>
           <Heading className='text-center'>Our Differentiator</Heading>
-          <GridBox columns={2} gap={10} className='md:space-y-0 space-y-5 items-center bg-[#FFF8F3] p-10 rounded-md'>
+          <GridBox columns={2} gap={10} className='md:space-y-0 space-y-5 items-center bg-[#FFF8F3] p-[20px] rounded-md md:unset flex flex-col-reverse'>
             <GridBox.GridItem columnMerge={1}>
               <ul className='space-y-10'>
               {differentiator.map((item, index) => (

@@ -30,7 +30,7 @@ const ContactUs = () => {
       <div className="container py-[20px]  md:py-[80px]">
         <div className="flex flex-col md:flex-row justify-between">
           <div className="md:w-[30%] w-full pt-6 md:sticky md:top-[50px] md:h-full">
-            <Heading>Keep In Touch With Us.</Heading>
+            <Heading className="text-black text-pretty md:text-[25px] text-[20px] md:leading-[40px] font-normal">Keep In Touch With Us.</Heading>
             <div className="divide-y divide-gray-200">
               <IconBoxV2
                 className="py-6"
@@ -57,7 +57,7 @@ const ContactUs = () => {
           </div>
           <div className="w-full md:w-[60%] ">
             <Card className="md:p-10 p-5">
-              <Heading className="mb-8 text-xl font-semibold text-gray-800 dark:text-neutral-200">
+              <Heading className="text-black text-pretty md:text-[25px] text-[20px] md:leading-[40px] font-normal mb-5">
                 Send a Message
               </Heading>
               <ContactForm />

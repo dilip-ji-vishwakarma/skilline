@@ -54,7 +54,7 @@ export const ImageBoxStyleOne = ({ data }: ImageWithTextProps) => {
         </GridBox.GridItem>
         <GridBox.GridItem
           columnMerge={1}
-          className="xl:px-px-[30px] lg:px-[30px] md:px-[30px] space-y-5 flex flex-col justify-around"
+          className="xl:px-px-[30px] lg:px-[30px] md:px-[30px] space-y-2 flex flex-col justify-around"
         >
           <Heading>{data.title}</Heading>
           <Paragraph>{data.description}</Paragraph>

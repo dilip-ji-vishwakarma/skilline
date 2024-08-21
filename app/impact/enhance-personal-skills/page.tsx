@@ -38,7 +38,7 @@ const EnhancePersonalSkills = () => {
               width={700}
               height={700}
               alt="Master Your Personal Skillset"
-              className="rounded-xl"
+              className="rounded-xl md:h-[600px] object-cover"
             />
           </div>
           <div className="md:w-1/2 w-full">
@@ -54,7 +54,7 @@ const EnhancePersonalSkills = () => {
             </div>
           </div>
         </div>
-        <div className="flex py-10 items-center md:flex-row flex-col-reverse gap-10 md:gap-0">
+        <div className="flex pb-10 pt-0 items-center md:flex-row flex-col-reverse gap-10 md:gap-0">
           <div className="md:w-1/2 w-full">
             <div className="space-y-10  md:pr-[50px]">
               <Heading>How to Improve Personal Skills</Heading>
@@ -82,7 +82,7 @@ const EnhancePersonalSkills = () => {
               width={700}
               height={700}
               alt="Steps to Enhance Personal Skills"
-              className="rounded-xl"
+              className="rounded-xl md:h-[500px] object-cover"
             />
           </div>
         </div>

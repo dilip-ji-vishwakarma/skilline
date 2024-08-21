@@ -42,7 +42,7 @@ const EmpoweringWomen = () => {
             />
           </div>
           <div className="md:w-1/2 w-full">
-            <div className="space-y-5 md:pl-[50px]">
+            <div className="space-y-3 md:pl-[50px]">
               <Heading>Empowerment of women</Heading>
               <Paragraph>
               {`Having an income is the long-term objective that will realize the two organizations' goals and objectives. Our business is to empower members of society with the instruments, support, and tools that will allow customers to achieve financial sustainability and business success.`}
@@ -54,9 +54,9 @@ const EmpoweringWomen = () => {
             </div>
           </div>
         </div>
-        <div className="flex py-10 items-center md:flex-row flex-col-reverse gap-10 md:gap-0">
+        <div className="flex pb-10 pt-0 items-center md:flex-row flex-col-reverse gap-10 md:gap-0">
           <div className="md:w-1/2 w-full">
-            <div className="space-y-10  md:pr-[50px]">
+            <div className="space-y-7  md:pr-[50px]">
               <Heading>Our programs are focused on</Heading>
               <UnorderedList>
                 {[

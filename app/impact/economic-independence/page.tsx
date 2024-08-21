@@ -38,11 +38,11 @@ const EconomicIndependence = () => {
               width={700}
               height={700}
               alt="Economic Independence"
-              className="rounded-xl"
+              className="rounded-xl md:h-[500px] object-cover"
             />
           </div>
           <div className="md:w-1/2 w-full">
-            <div className="space-y-5 md:pl-[50px]">
+            <div className="space-y-3 md:pl-[50px]">
               <Heading>Economic Independence</Heading>
               <Paragraph>
               Sustainability can be described as the capability to provide for economic aspects, which makes a person independent when it comes to support from others. This bare necessity of life empowers people and populations to make choices that would bring about the actualization of sustainable development, improved quality, and affluence.
@@ -54,9 +54,9 @@ const EconomicIndependence = () => {
             </div>
           </div>
         </div>
-        <div className="flex py-10 items-center md:flex-row flex-col-reverse gap-10 md:gap-0">
+        <div className="flex pt-0 pb-10 items-center md:flex-row flex-col-reverse gap-10 md:gap-0">
           <div className="md:w-1/2 w-full">
-            <div className="space-y-5  md:pr-[50px]">
+            <div className="space-y-3  md:pr-[50px]">
               <Heading>The Importance of Economic Independence</Heading>
               <Paragraph>The emphasis is on how one obtains economic independence at a micro level as well as why economic systems such as socialism, communism, and sovereign states are ineffective for a macro economy.</Paragraph>
               <UnorderedList>
@@ -79,7 +79,7 @@ const EconomicIndependence = () => {
               width={700}
               height={700}
               alt="The Importance of Economic Independence"
-              className="rounded-xl"
+              className="rounded-xl md:h-[500px] object-cover"
             />
           </div>
         </div>

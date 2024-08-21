@@ -38,11 +38,11 @@ const GlobalRecognition = () => {
               width={700}
               height={700}
               alt="Global Recognition"
-              className="rounded-xl"
+              className="rounded-xl md:h-[580px] object-cover"
             />
           </div>
           <div className="md:w-1/2 w-full">
-            <div className="space-y-5 md:pl-[50px]">
+            <div className="space-y-3 md:pl-[50px]">
               <Heading>Global Recognition</Heading>
 
               <Paragraph>
@@ -55,9 +55,9 @@ const GlobalRecognition = () => {
             </div>
           </div>
         </div>
-        <div className="flex py-10 items-center md:flex-row flex-col-reverse gap-10 md:gap-0">
+        <div className="flex pt-0 pb-10 items-center md:flex-row flex-col-reverse gap-10 md:gap-0">
           <div className="md:w-1/2 w-full">
-            <div className="space-y-10  md:pr-[50px]">
+            <div className="space-y-3  md:pr-[50px]">
               <Paragraph>
               {`This has led to an improved strategy and a broader scope of price-cutting measures that have been seen to improve Mindmaster Singapore's competitive advantage in the market. On the same path, the relationship between our business and XU Lifestyle has created tension in the functional activities that want them to provide better commercial business value to their clients.`}
               </Paragraph>
@@ -72,7 +72,7 @@ const GlobalRecognition = () => {
               width={700}
               height={700}
               alt="Global Recognition"
-              className="rounded-xl"
+              className="rounded-xl md:h-[500px] object-cover"
             />
           </div>
         </div>

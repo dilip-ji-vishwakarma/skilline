@@ -36,7 +36,7 @@ export const AccordionTemplate = ({ content }: AccordionTemplateProps) => {
             {item.question}
           </AccordionTrigger>
           <AccordionContent>
-            <Paragraph>{item.answer}</Paragraph>
+            <Paragraph className="md:text-lg">{item.answer}</Paragraph>
           </AccordionContent>
         </AccordionItem>
       ))}

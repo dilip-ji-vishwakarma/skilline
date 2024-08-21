@@ -81,20 +81,20 @@ export const Slider = ({ data }: SliderType) => {
             const descriptionArray = description.split("\n");
             return (
               <CarouselItem key={index}>
-                <div className="md:h-[580px] md:pb-[80px] h-[500px] bg-gradient-to-b  from-gray-50 via-white to-gray-100 flex items-center py-10 md:py-0">
+                <div className="md:h-[580px] md:pb-[80px] h-[600px] bg-gradient-to-b  from-gray-50 via-white to-gray-100 flex items-center py-10 md:py-0">
                   <div className="container">
                     <div className="flex justify-between md:flex-row flex-col items-center">
                       <div
                         className={cn(
-                          "md:w-[50%] px-5 md:px-0 md:text-left text-center flex flex-col gap-5 md:items-start items-center"
+                          "md:w-[50%]  md:px-0 md:text-left text-center flex flex-col gap-5 md:items-start items-center"
                         )}
                       >
-                        {/* <h3 className="proxima uppercase text-[13px] tracking-[5px] leading-[26px] text-gray-400">
+                        {/* <h3 className="interFont uppercase text-[13px] tracking-[5px] leading-[26px] text-gray-400">
                           {preTitle}
                         </h3> */}
                         <h2
                           className={cn(
-                            "md:text-[65px] leading-[35px] text-[30px] font-[600]  md:leading-[85px] text-slate-800 ",
+                            "md:text-[65px] leading-[35px] text-[30px] font-[600]  md:leading-[85px] text-black text-balance",
                             "flex flex-col"
                           )}
                         >
@@ -102,7 +102,7 @@ export const Slider = ({ data }: SliderType) => {
                             return <span key={index}>{headingItem}</span>;
                           })}
                         </h2>
-                        <div className="text-[18px] leading-[35px] md:text-[22px] md:leading-[39px] proxima text-slate-700 text-balance">
+                        <div className="text-[18px] leading-[35px] md:text-[22px] md:leading-[39px] interFont text-black">
                           {descriptionArray.map(
                             (headingItem: string, index) => {
                               return <span key={index}>{headingItem}</span>;
@@ -138,7 +138,7 @@ export const Slider = ({ data }: SliderType) => {
                           height={image.height}
                           alt={image.alt}
                           title={image.alt}
-                          className="relative md:w-[570px] w-[90%] md:h-[400px] md:object-cover rounded-[15px] md:mt-0 mt-[20px] z-[1]"
+                          className="relative md:w-[570px] w-[100%] md:h-[400px] md:object-cover rounded-[15px] md:mt-0 mt-[20px] z-[1]"
                         />
                       </div>
                     </div>

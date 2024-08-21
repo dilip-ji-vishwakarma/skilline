@@ -54,10 +54,10 @@ export const ImageBoxStyleFour = ({
   };
 
   return (
-    <div className="container">
+    <div className="md:container">
       <div
         className={cn(
-          "flex items-center flex-wrap rounded-xl pt-[74px] md:pb-[74px] pb-[20px]",
+          "flex items-center flex-wrap rounded-xl md:pt-[74px] md:pb-[74px] pt-[20px] pb-[20px]",
           "flex-col",
           imageAlign === "right" ? "flex-row-reverse" : "flex-row",
           backgroundColor[color],
@@ -91,7 +91,7 @@ export const ImageBoxStyleFour = ({
 
             <Heading className="pb-4">{data.title}</Heading>
 
-            <Paragraph className="flex flex-col gap-5   pb-4 ">
+            <Paragraph className="flex flex-col gap-5">
               {description.map((item: string, index) => {
                 return <span key={index}>{item}</span>;
               })}

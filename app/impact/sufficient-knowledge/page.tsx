@@ -42,7 +42,7 @@ const SufficientKnowledge = () => {
             />
           </div>
           <div className="md:w-1/2 w-full">
-            <div className="space-y-5 md:pl-[50px]">
+            <div className="space-y-3 md:pl-[50px]">
               <Heading>Mastering Essential Knowledge</Heading>
               <Paragraph>
                 {`In today's fast-paced and ever-evolving world, possessing
@@ -61,9 +61,9 @@ const SufficientKnowledge = () => {
             </div>
           </div>
         </div>
-        <div className="flex py-10 items-center md:flex-row flex-col-reverse gap-10 md:gap-0">
+        <div className="flex pb-10 pt-0 items-center md:flex-row flex-col-reverse gap-10 md:gap-0">
           <div className="md:w-1/2 w-full">
-            <div className="space-y-5  md:pr-[50px]">
+            <div className="space-y-3  md:pr-[50px]">
               <Heading>The Importance of Essential Knowledge</Heading>
               <Paragraph>The emphasis is on how one obtains economic independence at a micro level as well as why economic systems such as socialism, communism, and sovereign states are ineffective for a macro economy.</Paragraph>
               <UnorderedList>
@@ -86,7 +86,7 @@ const SufficientKnowledge = () => {
               width={700}
               height={700}
               alt="The Importance of Economic Independence"
-              className="rounded-xl"
+              className="rounded-xl md:h-[500px] object-cover"
             />
           </div>
         </div>

@@ -34,7 +34,7 @@ export const ImageBoxStyle = ({data, imageAlign}: ImageTextProps) => {
     <div className="" id="about-us">
       {imageAlign === "right" ? (
         <div className="container items-center flex-col-reverse md:flex-row xl:flex lg:flex md:flex flex flex-wrap  xl:bg-transparent lg:bg-transparent md:bg-[#F4F9FF] bg-[#F4F9FF]  xl:bg-[linear-gradient(90deg,#F4F9FF_70%,#FFFFFF_30%)] lg:bg-[linear-gradient(90deg,#F4F9FF_70%,#FFFFFF_30%)] md:bg-[linear-gradient(90deg,#F4F9FF_70%,#FFFFFF_30%)] py-10">
-          <div className="xl:pl-8 lg:pl-8 md:pl-8 xl:pt-0 lg:pt-0 md:pt-0 pt-5 xl:w-[45%] lg:w-[45%] md:w-[45%] w-full space-y-5">
+          <div className="xl:pl-8 lg:pl-8 md:pl-8 xl:pt-0 lg:pt-0 md:pt-0 pt-5 xl:w-[45%] lg:w-[45%] md:w-[45%] w-full space-y-3">
             <Heading>{data.title}</Heading>
             <Paragraph>{data.description}</Paragraph>
             <Paragraph>{data.additional_description}</Paragraph>
@@ -65,7 +65,7 @@ export const ImageBoxStyle = ({data, imageAlign}: ImageTextProps) => {
               height={1000}
             />
           </div>
-          <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] w-full xl:pr-8 lg:pr-8 md:pr-8 space-y-5">
+          <div className="xl:w-[50%] lg:w-[50%] md:w-[50%] w-full xl:pr-8 lg:pr-8 md:pr-8 space-y-3">
             <Heading>{data.title}</Heading>
             <Paragraph>{data.description}</Paragraph>
             <Paragraph>{data.additional_description}</Paragraph>

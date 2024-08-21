@@ -93,7 +93,7 @@ export const CardBox = ({
             </h3>
             <Paragraph
               className={cn(
-                "mt-3 text-gray-500 font-light line-clamp-3",
+                "mt-3 text-gray-500 font-light line-clamp-3 md:text-lg",
                 isFeatured ? "tracking-wide leading-7" : ""
               )}
             >

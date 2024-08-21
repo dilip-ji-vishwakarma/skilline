@@ -25,7 +25,7 @@ export const GuidingPrinciple = () => {
               height={1024}
             />
           </div>
-          <div className="grid-item col-span-1 relative space-y-8 ">
+          <div className="grid-item col-span-1 relative space-y-3 ">
             <Heading>{data.title}</Heading>
             <Paragraph className=" font-light  tracking-[_0.4px]">
               {data.description}

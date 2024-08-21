@@ -28,10 +28,10 @@ export const HomeContactUs = () => {
       <Heading className="text-center">Contact Us</Heading>
       <div className="mt-8">
       <Card className="md:p-10 p-5 md:w-6/12 w-full m-auto">
-      
-              <Heading className="mb-8 text-xl font-semibold text-gray-800 dark:text-neutral-200">
+{/*       
+              <Heading className="mb-8 text-xl font-semibold text-gray-800 dark:text-neutral-200 text-center">
                 Send a Message
-              </Heading>
+              </Heading> */}
               
               <ContactForm />
              

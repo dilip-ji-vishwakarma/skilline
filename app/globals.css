@@ -81,8 +81,8 @@
   @apply px-4 lg:px-3 2xl:max-w-[1325px] xl:max-w-[1225px];
 }
 
-.proxima {
-  font-family: var(--proxima-nova-font);
+body {
+  font-family: var(--inter-nova-font);
 }
 
 .number {

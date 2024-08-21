@@ -51,7 +51,7 @@ cousedescription,
             <div className="bg-gray-200 w-full h-[1px] md:w-[1px] md:h-[100%] inline-block mx-10" />
             <div className="pr-5">
               <h3 className="mb-2 md:block hidden">{title}</h3>
-              <Paragraph className=" font-[300]  proxima p-0 m-0 line-clamp-3 md:line-clamp-4 ">
+              <Paragraph className=" font-[300]  interFont p-0 m-0 line-clamp-3 md:line-clamp-4 ">
                 {cousedescription}
               </Paragraph>
               <div className="py-6 border-r-0 border-b-0 text-center md:w-[40%]">

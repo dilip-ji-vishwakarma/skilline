@@ -76,7 +76,7 @@ export const TestimonialSlider = ({ heading, description, quote }: TestimonialIt
         <section className="container">
             <div className="mx-auto max-w-[1340px] px-4 py-12 sm:px-6 lg:me-0 lg:py-16 lg:pe-0 lg:ps-8 xl:py-24">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 xl:items-center lg:items-center lg:gap-16">
-                    <div className="max-w-xl ltr:sm:text-left rtl:sm:text-right md:space-y-2">
+                    <div className="max-w-xl ltr:sm:text-left rtl:sm:text-right md:space-y-2 space-y-3">
                         <Heading>{heading}</Heading>
                         <Paragraph>{description}</Paragraph>
                         <div className="hidden lg:mt-8 lg:flex lg:gap-4">
@@ -106,11 +106,11 @@ export const TestimonialSlider = ({ heading, description, quote }: TestimonialIt
                                     <blockquote
                                         className="flex h-full flex-col justify-between shadow-sm sm:p-8 lg:py-6 lg:px-6 xl:py-6 xl:px-6 md:py-6 md:px-6 p-6 rounded-[15px]"
                                     >
-                                        <div>
+                                        <div className='space-y-3'>
                                             
                                             <div className="mt-4">
                                                 <blockquote className='flex space-x-2 text-slate-800'><FaQuoteLeft /><Heading className='md:text-[25px]'>{item.title}</Heading><FaQuoteRight /></blockquote>
-                                                <Paragraph>{item.description}</Paragraph>
+                                                <Paragraph className='leading-[30px] mt-3'>{item.description}</Paragraph>
                                             </div>
                                             <div className="flex gap-0.5 text-[#3750e0]">
                                                 {[...Array(item.rating)].map((_, index) => (

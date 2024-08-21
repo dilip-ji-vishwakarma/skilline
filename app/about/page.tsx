@@ -85,8 +85,8 @@ const AboutUs = () => {
       <SkillGap />
       <div className="bg-[#F3F4F6]">
         <div className="container">
-          <div className=" py-20 my-10 ">
-            <Heading className="text-center">What We Offer</Heading>
+          <div className=" pt-[50px] md:my-10 ">
+            <Heading className="md:text-center">What We Offer</Heading>
             <GridBox columns={3} gap={10} className="pt-10 md:space-y-0 space-y-8">
               {offer.map((item, index) => (
                 <GridBox.GridItem key={index} columnMerge={1} className="bg-white p-10 rounded-md">
@@ -100,7 +100,7 @@ const AboutUs = () => {
               ))}
             </GridBox>
           </div>
-          <div className="pb-20 container">
+          <div className="pb-20 container pt-10">
             <div className="space-y-5">
               <Heading className="md:text-center">Our Impact and Approach</Heading>
               <Paragraph className="md:text-center">{`Skilline uses AI and gamification to provide a personalized learning experience tailored to individual needs. We align with government initiatives like Atma Nirbhar Bharat to ensure high-quality, job-ready education that supports rural languages.`}</Paragraph>
