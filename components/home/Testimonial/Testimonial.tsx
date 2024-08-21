@@ -10,23 +10,23 @@ export const Testimonial = () => {
             {
                 rating: 5,
                 title: "Empowering India's Future",
-                description: "Skilline has revolutionized education in Bharat, making high-quality, AI-driven learning both accessible and affordable.",
+                description: "Skilline has revolutionized education in Bharat, making high-quality, AI-driven learning both accessible and affordable. It's a game-changer for educators like me who strive to reach students in every corner of the country.",
                 name: "Rakesh Kumar, Educator"
             },
             {
                 rating: 5,
-                title: "Empowering India's Future",
-                description: "Skilline has revolutionized education in Bharat, making high-quality, AI-driven learning accessible and affordable.",
-                name: "Rakesh Kumar, Educator"
+                title: "Transforming Rural Youth",
+                description: "Thanks to Skilline, I was able to upskill myself right from my village. The AI-powered courses are easy to follow, and the support has been fantastic. Now, I feel confident in my future.",
+                name: "Suman Devi, Rural Youth"
             },
             {
                 rating: 5,
-                title: "Empowering India's Future",
-                description: "Skilline has revolutionized education in Bharat, making high-quality, AI-driven learning accessible and affordable.",
-                name: "Rakesh Kumar, Educator"
+                title: "A Lifeline for Job Seekers",
+                description: "As a recent graduate, Skilline provided me with the tools I needed to secure my first job. The AI-driven learning paths were tailored to my needs, helping me bridge the gap between education and employment.",
+                name: "Amit Sharma, Job Seeker"
             }
         ]
-    }
+    }    
 
     if (!data || !data.heading || !data.description || !data.quote) {
         return (

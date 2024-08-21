@@ -649,7 +649,7 @@ export const courseData = [
       bgcolor: "bg-[rgba(254,137,91,0.15)] text-[#d33434]",
     },
     image: "/course/pu-02.jpg",
-    title: "Python for AI & Machine learning",
+    title: "Python for AI & Machine Learning",
     cousedescription: "This comprehensive Python course covers fundamentals to advanced concepts, enabling you to develop powerful applications and automate tasks efficiently.",
     link: {
       label: "Read More",
@@ -658,44 +658,44 @@ export const courseData = [
     }
   },
   {
-    course: "Python",
+    course: "React.JS",
     risk: {
-      label: "High",
-      bgcolor: "bg-[rgba(254,137,91,0.15)] text-[#feb55b]",
-    },
-    image: "/course/py-04.png",
-    title: "Mastering Machine learning Library",
-    cousedescription: "Mastering Machine learning Library(e.g. TensorFlow, PyTorch scikit-learn)",
-    link: {
-      label: "Read More",
-      url: "#",
-      target: "_self"
-    }
-  },
-  {
-    course: "Python",
-    risk: {
-      label: "High",
-      bgcolor: "bg-[rgba(254,137,91,0.15)] text-[#feb55b]",
-    },
-    image: "/course/py-03.jpg",
-    title: "Deep Learning Fundamentals with TensorFlow/PyTorch",
-    cousedescription: "Deep Learning Fundamentals (e.g. TensorFlow, PyTorch, Keras)",
-    link: {
-      label: "Read More",
-      url: "#",
-      target: "_self"
-    }
-  },
-  {
-    course: "Python",
-    risk: {
-      label: "Expert",
+      label: "Very High",
       bgcolor: "bg-[rgba(254,137,91,0.15)] text-[#d33434]",
     },
-    image: "/course/py-ai-1.jpg",
-    title: "Data structures & Algorithms for ai",
-    cousedescription: "Data structures & Algorithms",
+    image: "/course/reactjs.jpeg",
+    title: "Mastering React.js",
+    cousedescription: "Learn React.js to build dynamic and responsive front-end applications with modern JavaScript techniques.",
+    link: {
+      label: "Read More",
+      url: "#",
+      target: "_self"
+    }
+  },
+  {
+    course: "React Native",
+    risk: {
+      label: "Very High",
+      bgcolor: "bg-[rgba(254,137,91,0.15)] text-[#d33434]",
+    },
+    image: "/course/react-native.jpg",
+    title: "React Native for Mobile Apps",
+    cousedescription: "Develop cross-platform mobile apps using React Native, focusing on creating efficient and scalable mobile solutions.",
+    link: {
+      label: "Read More",
+      url: "#",
+      target: "_self"
+    }
+  },
+  {
+    course: "Talwind CSS",
+    risk: {
+      label: "Very High",
+      bgcolor: "bg-[rgba(254,137,91,0.15)] text-[#d33434]",
+    },
+    image: "/course/talwind.png",
+    title: "Tailwind CSS Essentials",
+    cousedescription: "Design sleek, responsive web interfaces with Tailwind CSS, mastering utility-first styling for rapid development.",
     link: {
       label: "Read More",
       url: "#",
