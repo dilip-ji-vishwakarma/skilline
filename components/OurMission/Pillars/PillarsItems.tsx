@@ -25,14 +25,17 @@ pillarsDescription,
             alt={title}
             className="md:w-full rounded-[15px]"
           />
+          <div>
+          <h3 className="mb-2 md:hidden block text-[23px]">{title}</h3>
+          </div>
         </div>
 
         <div className="md:col-span-3  flex items-center">
           <div className="w-full h-full flex items-center justify-center flex-col md:flex-row px-10 md:px-0">
             <div className="bg-gray-200 w-full h-[1px] md:w-[1px] md:h-[100%] inline-block mx-10" />
             <div className="pr-5">
-              <h3 className="mb-2">{title}</h3>
-              <Paragraph className=" font-[300]  proxima p-0 m-0 line-clamp-3 md:line-clamp-4 ">
+              <h3 className="mb-2 md:block hidden">{title}</h3>
+              <Paragraph className=" font-[300]  proxima p-0 m-0 line-clamp-5 md:line-clamp-4 ">
                 {pillarsDescription}
               </Paragraph>
             </div>

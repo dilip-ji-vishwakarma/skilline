@@ -40,8 +40,9 @@ cousedescription,
           />
           <div>
             <span className="w-[30px] h-[3px] hidden  bg-gray-200 md:inline-block"></span>
-            <h3 className="text-[18px] ">{course} </h3>
-            <p className={`text-[13px] leading-[1.38] text-center px-2.5 py-0.5 rounded-sm mt-2 ${risk.bgcolor}`}>{risk.label}</p>
+            <h3 className="text-[18px] md:block hidden">{course} </h3>
+            <h3 className="mb-2 md:hidden block">{title}</h3>
+            <p className={`text-[13px] leading-[1.38] text-center px-2.5 py-0.5 rounded-sm mt-2 md:block hidden ${risk.bgcolor}`}>{risk.label}</p>
           </div>
         </div>
 
@@ -49,7 +50,7 @@ cousedescription,
           <div className="w-full h-full flex items-center justify-center flex-col md:flex-row px-10 md:px-0">
             <div className="bg-gray-200 w-full h-[1px] md:w-[1px] md:h-[100%] inline-block mx-10" />
             <div className="pr-5">
-              <h3 className="mb-2">{title}</h3>
+              <h3 className="mb-2 md:block hidden">{title}</h3>
               <Paragraph className=" font-[300]  proxima p-0 m-0 line-clamp-3 md:line-clamp-4 ">
                 {cousedescription}
               </Paragraph>

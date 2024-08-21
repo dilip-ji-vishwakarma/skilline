@@ -102,8 +102,8 @@ const AboutUs = () => {
           </div>
           <div className="pb-20 container">
             <div className="space-y-5">
-              <Heading className="text-center">Our Impact and Approach</Heading>
-              <Paragraph className="text-center">{`Skilline uses AI and gamification to provide a personalized learning experience tailored to individual needs. We align with government initiatives like Atma Nirbhar Bharat to ensure high-quality, job-ready education that supports rural languages.`}</Paragraph>
+              <Heading className="md:text-center">Our Impact and Approach</Heading>
+              <Paragraph className="md:text-center">{`Skilline uses AI and gamification to provide a personalized learning experience tailored to individual needs. We align with government initiatives like Atma Nirbhar Bharat to ensure high-quality, job-ready education that supports rural languages.`}</Paragraph>
             </div>
             <GridBox columns={2} gap={10} >
               <GridBox.GridItem columnMerge={1} className="mt-8">

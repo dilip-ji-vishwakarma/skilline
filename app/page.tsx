@@ -36,7 +36,9 @@ export default function Home() {
       <Regionallanguages />
       <OurApproach />
       {/* <OurVision /> */}
+      <div className="py-5">
       <States />
+      </div>
       <About />
       {/* <OurStory /> */}
       <div className="pt-[30px]">
