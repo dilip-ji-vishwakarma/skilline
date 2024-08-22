@@ -35,7 +35,7 @@ pillarsDescription,
             <div className="bg-gray-200 w-full h-[1px] md:w-[1px] md:h-[100%] inline-block mx-10" />
             <div className="pr-5">
               <h3 className="mb-2 md:block hidden">{title}</h3>
-              <Paragraph className=" font-[300]  interFont p-0 m-0 line-clamp-5 md:line-clamp-4 ">
+              <Paragraph className=" font-[300]  interFont p-0 m-0 text-[20px]">
                 {pillarsDescription}
               </Paragraph>
             </div>

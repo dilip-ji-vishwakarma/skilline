@@ -736,7 +736,7 @@ export const pillarsData = [
 export const solution = [
   {
     course: "Economic Independence",
-    image: "/image/images/Economy.jpeg",
+    image: "/images/economic-independence.png",
     title: "Empowering individuals towards self-sufficiency",
     cousedescription: "We have tripled salaries and helped Maharaju and others transition to high-demand tech jobs, leading to increased economic independence.",
     link: {
@@ -747,7 +747,7 @@ export const solution = [
   },
   {
     course: "Global Recognition",
-    image: "/image/images/Infrastructure.jpg",
+    image: "/images/global-recognition.png",
     title: "Achieving international acclaim and acknowledgment.",
     cousedescription: "Our trained professionals contribute significantly to global markets, including top clients like Mindmaster Singapore and XULifestyle.",
     link: {
@@ -758,7 +758,7 @@ export const solution = [
   },
   {
     course: "Empowerment of Women",
-    image: "/image/images/System.jpeg",
+    image: "/images/empowering-women.png",
     title: "Fostering growth and opportunities for women",
     cousedescription: "Deepti’s journey from homemaker to confident Python developer exemplifies our commitment to helping women rejoin the workforce.",
     link: {
@@ -769,7 +769,7 @@ export const solution = [
   },
   {
     course: "Enhance Personal Skills",
-    image: "/image/images/Vibrant Demography Skills.jpeg",
+    image: "/images/enhance-personal-skills.png",
     title: "Development of essential skills for personal and professional growth",
     cousedescription: "Kishore's transition from operations to programming at Mindmaster Singapore highlights how skill development can transform career trajectories.",
     link: {
@@ -780,7 +780,7 @@ export const solution = [
   },
   {
     course: "Sufficient Knowledge",
-    image: "/image/images/Demand.jpeg",
+    image: "/images/sufficient-knowledge.png",
     title: "Comprehensive learning to meet current and future needs.",
     cousedescription: "Skilline’s modern tech exposure transformed Dilip from using outdated technology to leading innovative projects, exemplifying how continuous learning drives career advancement.",
     link: {
@@ -791,7 +791,7 @@ export const solution = [
   },
   {
     course: "Self-Learning",
-    image: "/image/images/Demand.jpeg",
+    image: "/images/self-learning.png",
     title: "Encouraging independent learning and development.",
     cousedescription: "Sonu Verma, from humble beginnings in Indore, used Skilline’s courses to become a top full-stack developer, achieving excellence in software.",
     link: {

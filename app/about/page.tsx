@@ -127,13 +127,13 @@ const AboutUs = () => {
       <div className="my-10">
         <Solution />
       </div>
-      <div className="container space-y-10">
+      {/* <div className="container space-y-10">
         <Heading className="text-center">Our Timeline</Heading>
         <Image src="/image/images/image 23.jpg" alt="Timeline" title="Timeline" width={1578} height={889} />
         <div className="justify-center flex">
         <Link href="/contact-us" className="text-[white] bg-[black] text-[25px] px-5 py-2.5 rounded-[10px]">Come and join us</Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

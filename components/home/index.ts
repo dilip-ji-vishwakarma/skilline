@@ -23,3 +23,4 @@ export * from "./Course";
 export * from "./Regionallanguages";
 export * from "./OurStory";
 export * from "./RoadMap";
+export * from "./OurImpacts";

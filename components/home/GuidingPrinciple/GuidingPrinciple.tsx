@@ -12,12 +12,12 @@ export const GuidingPrinciple = () => {
   };
 
   return (
-    <div className="bg-gray-100 py-5">
+    <div className="py-5">
       <div className="container "> 
         <div className="sm:grid grid-cols-2 gap-10 items-center md:space-y-0 space-y-5">
         <div className="grid-item col-span-1">
             <Image
-              className="shadow-[0px_0px_20px_0px_rgba(51,51,51,0.1)] rounded-[10px_10px_10px_10px] md:h-[400px] md:object-cover"
+              className="shadow-[0px_0px_20px_0px_rgba(51,51,51,0.1)] rounded-[10px_10px_10px_10px] md:h-[400px] md:object-cover md:h-[450px] object-cover"
               // src={data.image}
               src={data.image}
               alt={data.title}

@@ -28,7 +28,7 @@ cousedescription,
   link,
 }: CourseItemtype) => {
   return (
-    <Link href={link.url} target={link.target}>
+    // <Link href={link.url} target={link.target}>
       <div className="bg-white grid md:grid-cols-4 grid-cols-1 rounded-xl py-4">
         <div className="md:w-[200px] w-full items-center px-6 py-4 md:text-center flex gap-4 md:gap-1 flex-fow md:flex-col md:justify-center ">
           <Image
@@ -51,10 +51,10 @@ cousedescription,
             <div className="bg-gray-200 w-full h-[1px] md:w-[1px] md:h-[100%] inline-block mx-10" />
             <div className="pr-5">
               <h3 className="mb-2 md:block hidden">{title}</h3>
-              <Paragraph className=" font-[300]  interFont p-0 m-0 line-clamp-3 md:line-clamp-4 ">
+              <Paragraph className=" font-[300]  interFont p-0 m-0 ">
                 {cousedescription}
               </Paragraph>
-              <div className="py-6 border-r-0 border-b-0 text-center md:w-[40%]">
+              {/* <div className="py-6 border-r-0 border-b-0 text-center md:w-[40%]">
                 <p
                   // href={link.url}
                   // target={link.target}
@@ -62,11 +62,11 @@ cousedescription,
                 >
                   {link.label}
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
-    </Link>
+    // </Link>
   );
 };

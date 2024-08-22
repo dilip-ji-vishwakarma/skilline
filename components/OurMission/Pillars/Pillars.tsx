@@ -65,7 +65,7 @@ export const Pillars = () => {
                                 }),
                             ]}
                         >
-                            <CarouselContent className="-mt-1 h-[400px]">
+                            <CarouselContent className="-mt-1 md:h-[400px] h-[550px]">
                                 {data.map((item, index) => {
                                     const { image, title, pillarsDescription} = item;
                                     return (
@@ -89,7 +89,7 @@ export const Pillars = () => {
                                 {/* <CarouselPrevious className="relative -rotate-90" /> */}
                             </div>
                         </Carousel>
-                        <div className="pt-1 h-[40%] w-full bg-gradient-to-t  from-[#F3F4F6]  to-transparent bottom-0 left-0 absolute hidden md:block"></div>
+                        
                     </div>
                 </div>
             </div>

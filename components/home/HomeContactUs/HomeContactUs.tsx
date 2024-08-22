@@ -24,7 +24,7 @@ export const HomeContactUs = () => {
     //   </div>
     // </div>
     // </div>r
-    <div className="py-10">
+    <div className="py-10 bg-[#F8F8F8]">
       <Heading className="text-center">Contact Us</Heading>
       <div className="mt-8">
       <Card className="md:p-10 p-5 md:w-6/12 w-full m-auto">

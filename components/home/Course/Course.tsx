@@ -43,7 +43,7 @@ export const Course = () => {
     return (
         <div className="bg-[#F3F4F6] md:rounded-xl mb-10">
             <div className="container pt-10">
-                <div className="flex items-center flex-col md:flex-row">
+                <div className="flex items-center flex-col md:flex-row gap-10">
                     <div className="md:w-[50%] w-full pb-10">
                         <Heading className="mb-5">Courses</Heading>
                         <Paragraph>
